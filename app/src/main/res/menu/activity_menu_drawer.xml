@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_datanak"
+            android:icon="@drawable/ic_menu_dataanak"
+            android:title="Data Anak" />
+        <item
+            android:id="@+id/nav_laporanharian"
+            android:icon="@drawable/ic_menu_laporanharian"
+            android:title="Laporan Harian" />
+        <item
+            android:id="@+id/nav_monitoring"
+            android:icon="@drawable/ic_menu_monitoring"
+            android:title="Monitoring" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/ic_menu_tentang"
+            android:title="Tentang Aplikasi" />
+    </group>
+</menu>

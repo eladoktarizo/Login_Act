@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Edit"
+        android:id="@+id/nav_edit"
+        android:icon="@drawable/ic_menu_edit"
+        app:showAsAction="always" />
+
+    <item
+        android:title="hapus"
+        android:id="@+id/nav_hapus"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always" />
+</menu>

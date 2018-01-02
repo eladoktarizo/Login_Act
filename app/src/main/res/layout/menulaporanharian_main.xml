@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Catatan Guru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="?attr/colorPrimary" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:id="@+id/catatanguru"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savecatatan"
+        android:text="Save Catatan"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backmenu"
+        android:text="Kembali ke MENU"/>
+</LinearLayout>
